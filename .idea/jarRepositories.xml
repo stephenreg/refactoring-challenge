@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="tsac-maven-virtual" />
+      <option name="url" value="https://artifacts.i.mercedes-benz.com/artifactory/tsac-maven-virtual" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="pub-release" />
+      <option name="name" value="mvn-official-releases" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="pub-snapshot" />
+      <option name="name" value="mvn-official-snapshots" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="tsac-maven-virtual" />
+      <option name="url" value="https://artifacts.i.mercedes-benz.com/artifactory/tsac-maven-virtual" />
+    </remote-repository>
+  </component>
+</project>

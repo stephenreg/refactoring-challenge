@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.checkr.interviews.FundingRaisedTest" time="0.049" tests="11" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/test-classes:/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/classes:/Users/stre/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/stre/.m2/repository/com/opencsv/opencsv/3.3/opencsv-3.3.jar:/Users/stre/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/Users/stre/.sdkman/candidates/java/17.0.4.1-tem/lib"/>
+    <property name="sun.java.command" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/surefire/surefirebooter-20230704113002809_3.jar /Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/surefire 2023-07-04T11-30-02_768-jvmRun1 surefire-20230704113002809_1tmp surefire_0-20230704113002809_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/test-classes:/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/classes:/Users/stre/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar:/Users/stre/.m2/repository/com/opencsv/opencsv/3.3/opencsv-3.3.jar:/Users/stre/.m2/repository/org/apache/commons/commons-lang3/3.3.2/commons-lang3-3.3.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/stre"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-08-12"/>
+    <property name="java.home" value="/Users/stre/.sdkman/candidates/java/17.0.4.1-tem"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge/target/surefire/surefirebooter-20230704113002809_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.4.1+1"/>
+    <property name="user.name" value="stre"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.3.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
+    <property name="localRepository" value="/Users/stre/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/j0/3g7q6z451yn0g0jw793x75t040dwyw/T/"/>
+    <property name="java.version" value="17.0.4.1"/>
+    <property name="user.dir" value="/Users/stre/Library/CloudStorage/OneDrive-Exxeta/Internal/we9.2/Bewerbungen/refactoring-challenge"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/stre/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.4.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testWhereGivenCompany" classname="com.checkr.interviews.FundingRaisedTest" time="0.01"/>
+  <testcase name="testWhereGivenCity" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testWhereGivenState" classname="com.checkr.interviews.FundingRaisedTest" time="0.004"/>
+  <testcase name="testWhereGivenRound" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testMultipleOptions" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testWhereNotExists" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testWhereCorrectKeys" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testFindByGivenCompanyName" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+  <testcase name="testFindByGivenState" classname="com.checkr.interviews.FundingRaisedTest" time="0.002"/>
+  <testcase name="testFindByMultipleOptions" classname="com.checkr.interviews.FundingRaisedTest" time="0.002"/>
+  <testcase name="testFindByNotExists" classname="com.checkr.interviews.FundingRaisedTest" time="0.003"/>
+</testsuite>
